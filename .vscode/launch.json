@@ -1,0 +1,14 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run hello",
+      "type": "java",
+      "request": "launch",
+      "mainClass": "hello",
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal",
+      "javaHome": "C:\\Program Files\\Eclipse Adoptium\\jdk-25.0.4.101-hotspot"
+    }
+  ]
+}
