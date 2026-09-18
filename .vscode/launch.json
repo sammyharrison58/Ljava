@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "test",
+            "request": "launch",
+            "mainClass": "test",
+            "projectName": "Ljava_ac78a434"
+        },
+        {
+            "type": "java",
             "name": "type",
             "request": "launch",
             "mainClass": "type",

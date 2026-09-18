@@ -1,21 +1,14 @@
+import java.util.Scanner;
+
 public class test {
-    public class type {
-        private String name;
-        private int value;
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
 
-        public type(String name, int value) {
-            this.name = name;
-            this.value = value;
-        }
+        System.out.print("What is your name? ");
+        String name = input.nextLine();
 
-        public String getName() {
-            return name;
-        }
+        System.out.println("Hello, " + name + "! Nice to meet you.");
 
-        public int getValue() {
-            return value;
-        }
-
+        input.close();
     }
-
 }
