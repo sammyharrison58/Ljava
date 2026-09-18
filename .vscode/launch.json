@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "type",
+            "request": "launch",
+            "mainClass": "type",
+            "projectName": "Ljava_ac78a434"
+        }
+    ]
+}

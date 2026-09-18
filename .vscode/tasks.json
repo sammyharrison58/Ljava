@@ -24,7 +24,7 @@
       "type": "shell",
       "command": "java",
       "args": [
-        "hello"
+        "${file}"
       ],
       "options": {
         "cwd": "${workspaceFolder}",
@@ -33,9 +33,6 @@
           "Path": "${env:JAVA_HOME}\\bin;${env:Path}"
         }
       },
-      "dependsOn": [
-        "Compile Java"
-      ],
       "problemMatcher": []
     }
   ]
